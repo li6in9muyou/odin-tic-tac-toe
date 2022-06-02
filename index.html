@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>odin-tic-tac-toe</title>
+    <style>
+      td {
+        width: 100px;
+        height: 100px;
+        background-color: darkgoldenrod;
+        border: solid 3px red;
+        font-size: 5rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <span> <em data-whoseTurn></em>'s Turn </span>
+      <span
+        data-winnerDisplay=""
+        style="background-color: red; padding: 1rem"
+      ></span>
+    </h1>
+    <label>
+      player X
+      <input type="text" data-player_x />
+    </label>
+    <label>
+      player O
+      <input type="text" data-player_o />
+    </label>
+    <button data-start>start</button>
+    <table data-grid>
+      <tr>
+        <td data-bind="1" data-cell></td>
+        <td data-bind="2" data-cell></td>
+        <td data-bind="3" data-cell></td>
+      </tr>
+      <tr>
+        <td data-bind="4" data-cell></td>
+        <td data-bind="5" data-cell></td>
+        <td data-bind="6" data-cell></td>
+      </tr>
+      <tr>
+        <td data-bind="7" data-cell></td>
+        <td data-bind="8" data-cell></td>
+        <td data-bind="9" data-cell></td>
+      </tr>
+    </table>
+    <script src="src/handleClick.js" type="module"></script>
+  </body>
+</html>

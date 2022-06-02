@@ -7,7 +7,7 @@ import {
   NicknameX,
   gameRunning,
   board,
-} from "./gameBoard.js";
+} from "./Domain.js";
 
 export function showTermination(who) {
   let text;

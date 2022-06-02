@@ -8,8 +8,8 @@ import {
   winner,
   NicknameO,
   NicknameX,
-} from "./gameBoard.js";
-import { render, showTermination } from "./displayController.js";
+} from "./Domain.js";
+import { render, showTermination } from "./GUIPort.js";
 
 for (const cell of document.querySelectorAll("[data-cell]")) {
   cell.addEventListener("click", (e) => {

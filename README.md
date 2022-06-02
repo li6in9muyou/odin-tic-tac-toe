@@ -15,4 +15,4 @@ There is no mapping between `Domain` and `GUIPort`.
 
 Interestingly, application is assembled implicitly through module imports.
 There is no explicit object creation because the Adapter and Port part of my code
-are simply dumb functions. And domain object's state is captured by module level variables. 
+are simply dumb functions. And domain object's state is captured by module level variables.

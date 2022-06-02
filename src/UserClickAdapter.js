@@ -39,7 +39,7 @@ NickNameInputO.value = NicknameO;
 NickNameInputX.value = NicknameX;
 
 document.querySelector("[data-start]").addEventListener("click", () => {
-  startGame(NickNameInputO.value, NickNameInputX.value);
+  startGame(NickNameInputX.value, NickNameInputO.value);
   render(board);
   showTermination("");
 });
